@@ -1,4 +1,5 @@
 <project default="compile-testcases">
+    <echo message="Hello, world"/>
     <path id="NecessaryLibraries">
         <pathelement location="./UsedLibraries/junit-4.12.jar"/>
         <!--matcher-->
