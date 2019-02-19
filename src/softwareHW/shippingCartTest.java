@@ -24,11 +24,11 @@ public class shippingCartTest {
 	public void ManyShippingCartTest() {
 		ShippingCart cart = new ShippingCart();
 		Book book = new Book("Java Book", 127.0);
-		Book book1 = new Book("Web design Book", 100.0);
+		Book book1 = new Book("Web design Book", 100);
 		cart.addBook(book);
 		cart.addBook(book1);
 		Assert.assertEquals(2, cart.getCount());
-		Assert.assertEquals(227.0, cart.getPrice(), 227.0);
+		Assert.assertEquals(227, cart.getPrice());
 	}
 	
 }
